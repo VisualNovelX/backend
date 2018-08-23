@@ -1,0 +1,21 @@
+{
+  "debug": false,
+  "client": "postgres",
+  "connection": {
+    "host": "localhost",
+    "database": "vnx_dev",
+    "user": "vnx_user",
+    "password": "vnx_password"
+  },
+  "searchPath": "dev",
+  "pool": {
+    "min": 0,
+    "max": 10
+  },
+  "migrations": {
+    "directory": "../knex/migrations"
+  },
+  "seeds": {
+    "directory": "../knex/seeds"
+  }
+}
