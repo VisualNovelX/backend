@@ -1,5 +1,6 @@
 export interface Posts {
     author: {
+        author_id: number;
         name: string;
         image: string;
         twitter?: string;
@@ -10,7 +11,12 @@ export interface Posts {
     date?: string;
     duration: string;
     image: {
-        artist: string;
+        artist: {
+            artist_id: number;
+            name: string;
+            instagram?: string;
+            twitter?: string;
+        };
         url: string;
         [propName: string]: string;
     }

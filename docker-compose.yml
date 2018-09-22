@@ -1,0 +1,15 @@
+version: '3.7'
+services:
+  postgres:
+    container_name: vnxdev_db
+    image: postgres
+    ports:
+      - "5432:5432"
+    environment:
+      PGDATA: '/data'
+      POSTGRES_DB: 'vnxdev_db'
+      POSTGRES_USER: 'vnx_user'
+      POSTGRES_PASSWORD: 'vnx'
+    volumes:
+      - "./data:/data"
+      - "./knex/init/:/docker-entrypoint-initdb.d/"

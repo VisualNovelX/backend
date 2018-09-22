@@ -18,18 +18,18 @@ export class PostsController {
                 "image": {
                     "artist": "loundraw",
                     "pixiv": "https://www.pixiv.net/member.php?id=772547",
-                    "twitter": "https://twitter.com/loundraw",
                     "title": "少女は夜を綴らない",
+                    "twitter": "https://twitter.com/loundraw",
                     "url": "/assets/63967458_p0_master1200.jpg"
                 },
                 "categories": ["vnxspotlight"],
                 "title": "A young mystery impossible to read ahead, drawing a girl who plunges into a \"murder plan\"!",
                 "author": {
-                    "name": "Sumi-chan",
-                    "image": "/assets/authors/sumi.jpg",
                     "email": "brian@visualnovelx.com",
-                    "twitter": "visualnovelx",
-                    "instagram": "visualnovelx"
+                    "image": "/assets/authors/sumi.jpg",
+                    "instagram": "visualnovelx",
+                    "name": "Sumi-chan",
+                    "twitter": "visualnovelx"
                 },
                 "content": "Riko Yamane, third grade junior high school student who is confined to the obsession of \"It might hurt people\". She had a trauma of \"being killed\" in front of her classmate Kanako when he was in elementary school sixth grade. Kanako's younger brother / Yujin appeared one day before Riko who managed to calm herself by spelling it on a note named \"Night's Diary\" for \"Familiar Human Murder Plan\" and Riko who was sending school life somehow. Threatened to reveal the secret of Riko related to \"death of Kanako\", Riko will help plan to kill Hideo 's father. Riko who is attracted to the honor who can share the \"night diary\" who could not tell anyone, unavoidably thinking of the murder plan. Soon they will put the murder plan into action."
             }

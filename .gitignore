@@ -1,6 +1,7 @@
 # App specific
 config/local*.json
 docker-compose.overrides.yml
+/data
 
 # Dependency directories
 node_modules/
